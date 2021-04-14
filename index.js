@@ -12,21 +12,20 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(timeString){
   let timeSplit = timeString.split(':');
-  /*let newtime = timeSplit[0].concat(timeSplit[1])
-  let newtime = (timeSplit[0]*1+(timeSplit[1]/60);
+  /*let newtime = (timeSplit[0]*1+(timeSplit[1]/60);
   let finalTime = parseInt(newTime);*/
   let getHour = parseInt(timeSplit[0]);
   alert(getHour)
   let getMinute = parseInt(timeSplit[1]);
   alert(getMinute)
-  if (finalTime<12){
+  if (getHour<12){
     //displayMessage()
     return "Good Morning";
-  } else if (finalTime>17){
+  } else if (getHour>17){
     return "Good Evening";
   }
   else return ("Good Afternoon")
 }
 /* Write your implementation of displayMessage() */
 //function displayMessage(msg){
-//document.getElementById("greeting").innerText = greet(20:15);
+//document.getElementById("greeting").innerText =msg;
