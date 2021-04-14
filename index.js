@@ -24,8 +24,12 @@ function greet(timeString){
     return "Good Morning";
   } else if (getHour>17){
     displayMessage("Good Evening");
+    return "Good Morning";
+
   }
   else displayMessage("Good Afternoon");
+  return "Good Afternoon";
+
 }
 /* Write your implementation of displayMessage() */
 const   displayMessage =(msg) =>{
