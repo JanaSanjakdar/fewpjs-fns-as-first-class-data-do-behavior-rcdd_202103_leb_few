@@ -28,6 +28,6 @@ function greet(timeString){
   else displayMessage("Good Afternoon");
 }
 /* Write your implementation of displayMessage() */
-const   displayMessage =(msg){
+const   displayMessage =(msg) =>{
 document.getElementById("greeting").innerText = msg;
 }
