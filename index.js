@@ -19,6 +19,7 @@ function greet(timeString){
   let getMinute = parseInt(timeSplit[1]);
 //  alert(getMinute)
   if (getHour<12){
+    
     displayMessage("Good Morning");
   } else if (getHour>17){
     displayMessage("Good Evening");
@@ -28,3 +29,4 @@ function greet(timeString){
 /* Write your implementation of displayMessage() */
 function displayMessage(msg){
 document.getElementById("greeting").innerText = msg;
+}
