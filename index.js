@@ -20,7 +20,8 @@ function greet(timeString){
 //  alert(getMinute)
   if (getHour<12){
 
-    //displayMessage("Good Morning");
+    displayMessage("Good Morning");
+    return "Good Morning!";
   } else if (getHour>17){
     displayMessage("Good Evening");
   }
