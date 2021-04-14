@@ -20,13 +20,13 @@ function greet(timeString){
 //  alert(getMinute)
   if (getHour<12){
 
-    displayMessage("Good Morning");
+    //displayMessage("Good Morning");
   } else if (getHour>17){
     displayMessage("Good Evening");
   }
   else displayMessage("Good Afternoon");
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(msg){
+const   displayMessage =(msg){
 document.getElementById("greeting").innerText = msg;
 }
