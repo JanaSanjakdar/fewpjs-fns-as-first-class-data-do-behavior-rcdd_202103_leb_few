@@ -22,9 +22,9 @@ function greet(timeString){
     //displayMessage()
     displayMessage("Good Morning");
   } else if (getHour>17){
-    displayMessage("Good Afternoon");
+    displayMessage("Good Evening");
   }
-  else return ("Good Afternoon")
+  else displayMessage("Good Afternoon");
 }
 /* Write your implementation of displayMessage() */
 //function displayMessage(msg){
