@@ -26,7 +26,7 @@ function greet(timeString){
     return "Good Evening";
   }
   else displayMessage("Good Afternoon");
-  return "Good Evening";
+  return "Good Afternoon";
 }
 /* Write your implementation of displayMessage() */
 const   displayMessage =(msg) =>{
